@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>divs e css</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+        }
+        .num{
+            background-color:blue;
+            width: 70px;
+            height: 70px;
+        }
+        .num2{
+            background-color: red;
+            width: 70px;
+            height: 70px;
+            margin-left: 70px;
+        }
+        .container2{
+            display: grid;
+            flex-direction: column;
+        }
+        .num3{
+            background-color:black;
+            width: 90px;
+            height: 90px;
+            margin-top: 70px;
+        }
+        .num4{
+            background-color:red;
+            width: 90px;
+            height: 90px;
+        }
+        .num5{
+            background-color: yellow;
+            width: 90px;
+            height: 90px;
+        }
+        .container3{
+            display: inline;
+        }
+        .num6{
+            background-color: red;
+            width: 150px;
+            height: 150px;
+            padding-top: 75px;
+        }
+        .num7{
+            background-color: yellow;
+            width: 150px;
+            height: 75px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="num"></div>
+        <div class="num2"></div>
+        <p> france</p>
+    </div>
+    <div class="container2">
+        <div class="num3"></div>
+        <div class="num4"></div>
+        <div class="num5"></div>
+        <p>germany</p>
+    </div>
+    <div class="container3">
+        <div class="num6">
+            <div class="num7"></div>
+        </div>
+        <p>spain</p>
+    </div>
+</body>
+</html>
